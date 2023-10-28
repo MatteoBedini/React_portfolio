@@ -1,7 +1,7 @@
 @import 'bootstrap'; 
 @font-face {
   font-family: Reactfont;
-  src: url('/fonts/M_PLUS_Code_Latin/MPLUSCodeLatin-VariableFont_wdth,wght.ttf');
+  src: url('/resources/fonts/M_PLUS_Code_Latin/MPLUSCodeLatin-VariableFont_wdth,wght.ttf');
 }
 :root{
   --black: #010626;
@@ -19,4 +19,12 @@ body{
   padding:0;
   font-family: Reactfont;
   height:150vh;
+}
+
+p{
+  font-size: large;
+}
+
+h2{
+  font-size: larger;
 }

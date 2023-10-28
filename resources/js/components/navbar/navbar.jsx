@@ -9,7 +9,7 @@ const Navbar = ()=>{
             </div>
             <ul>
                 <li><NavLink end to="/" className="btn btn-dark">Home</NavLink></li>
-                <li>About</li>
+                <li><NavLink end to="/cv" className="btn btn-dark">Curriculum vitae</NavLink></li>
                 <li>Contact</li>
             </ul>
         </nav>

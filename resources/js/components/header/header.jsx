@@ -1,9 +1,10 @@
 
 import './style.css';
-const Header = () => {
+const Header = ({title}) => {
+    
     return (
-        <header className="App-header">
-            <h1>React portfolio</h1>
+        <header className="App-header mt-4">
+            <h1>{title}</h1>
         </header>
     );
 }
