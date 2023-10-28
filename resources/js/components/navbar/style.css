@@ -12,7 +12,7 @@ nav ul li {
 }
 
 .my-photo{
-    width:90%;
+    width:75%;
     height:width;
     object-fit: cover;
     border-radius: 50%;

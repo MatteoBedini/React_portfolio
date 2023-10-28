@@ -3,7 +3,7 @@ const Section1 = ()=>{
         <section>
 
             <h2>Portfolio</h2>
-            <p>Portfolio di react di Matteo Bedini</p>
+            <p>Il sito è stato realizzando interamente in React per quanto riguarda la parte di frontend e laravel per la parte di backend</p>
         </section>
     );
 }
