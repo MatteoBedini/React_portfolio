@@ -1,0 +1,20 @@
+nav{
+    background-color: var(--white);
+    height:100vh;
+    position:fixed;
+    top:0;
+    left:0;
+    width: 15%;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.my-photo{
+    width:90%;
+    height:width;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}

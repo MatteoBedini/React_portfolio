@@ -1,0 +1,7 @@
+
+header{
+    
+    top: 0;
+    color: var(--green);
+    border-bottom:4px solid var(--white);
+}

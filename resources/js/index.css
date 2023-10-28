@@ -1,0 +1,22 @@
+@import 'bootstrap'; 
+@font-face {
+  font-family: Reactfont;
+  src: url('/fonts/M_PLUS_Code_Latin/MPLUSCodeLatin-VariableFont_wdth,wght.ttf');
+}
+:root{
+  --black: #010626;
+  --white: #B4D2D9;
+  --green: #011F26;
+  --red: #8C0335;
+  --blue:#99B4BF;
+  
+
+}
+
+body{
+  background-color: var(--blue);
+  margin:0;
+  padding:0;
+  font-family: Reactfont;
+  height:150vh;
+}
