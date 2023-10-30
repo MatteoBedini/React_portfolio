@@ -3,13 +3,17 @@
   font-family: Reactfont;
   src: url('/resources/fonts/M_PLUS_Code_Latin/MPLUSCodeLatin-VariableFont_wdth,wght.ttf');
 }
+@font-face {
+  font-family: Roboto;
+  src: url('/resources/fonts/Roboto/Roboto-Regular.ttf');
+}
 :root{
   --black: #010626;
   --white: #B4D2D9;
   --green: #011F26;
   --red: #8C0335;
   --blue:#99B4BF;
-  
+  --shadow: rgb(1, 6, 38, 0.4);
 
 }
 
@@ -17,8 +21,8 @@ body{
   background-color: var(--blue);
   margin:0;
   padding:0;
-  font-family: Reactfont;
-  height:150vh;
+  font-family: Roboto;
+  
 }
 
 p{

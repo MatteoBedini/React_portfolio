@@ -5,3 +5,10 @@ header{
     color: var(--green);
     border-bottom:4px solid var(--white);
 }
+
+h1{
+    font-family: ReactFont;
+}
+h2{
+    font-family: ReactFont;
+}

@@ -17,4 +17,12 @@ Route::get('/', function () {
     return view('homepage');
 })->name('homepage');
 
+Route::get('/contact', function () {
+    return view('contacts');
+})->name('contact');
+
+Route::get('/cv', function () {
+    return view('CV');
+})->name('cv');
+
 

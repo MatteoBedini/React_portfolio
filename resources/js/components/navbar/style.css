@@ -5,10 +5,15 @@ nav{
     top:0;
     left:0;
     width: 15%;
+    min-width:130px;
 }
 
-nav ul li {
+nav ul {
     list-style: none;
+    gap: 30px;
+    padding:0;
+    margin-top: 20px;
+    
 }
 
 .my-photo{
@@ -16,5 +21,38 @@ nav ul li {
     height:width;
     object-fit: cover;
     border-radius: 50%;
+    box-shadow: 0px 0px 15px var(--shadow);
     
 }
+
+.btn-cus{
+    
+    text-decoration: none;
+    color: var(--black);
+    background-color: var(--blue);
+    font-size: larger;
+    width:80%;
+    padding: 4%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 3px var(--shadow);
+    transition: 0.3s;
+    cursor: pointer;
+    
+    /* position: relative;
+    left: calc(50% - 50px); */
+}
+
+.btn-cus:hover{
+   box-shadow: none;
+}
+
+.btn-cus:active{
+    box-shadow: inset 0px 4px 3px var(--shadow);
+    
+}
+
+.navlink-cus{
+    color:var(--black)
+}
+
+
