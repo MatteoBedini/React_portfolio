@@ -1,3 +1,57 @@
 .presentazione-cus{
-    height:100vh;
+    min-height:110vh;
+}
+
+.presentazione-cus span {
+    font-size: larger;
+    width:90%;
+    line-height: 27px;
+}
+
+
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+  position:relative;
+  bottom:-100px;
+  left:-5%;
+
+  
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+.arrow a i{
+    color: var(--green);
+    opacity: 0.7;
+    transition:0.2s;
+}
+
+.arrow a i:hover{
+    color: var(--red);
+    transform:scale(1.4);
+
+
+}
+
+.arrow a i:active{
+    transform:scale(1.2);
+    color:var(--white);
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
 }

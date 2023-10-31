@@ -5,7 +5,7 @@ nav{
     top:0;
     left:0;
     width: 15%;
-    min-width:130px;
+    /* min-width:130px; */
 }
 
 nav ul {
@@ -21,7 +21,7 @@ nav ul {
     height:width;
     object-fit: cover;
     border-radius: 50%;
-    box-shadow: 0px 0px 15px var(--shadow);
+    box-shadow: 0px 0px 15px 2px var(--shadow);
     
 }
 

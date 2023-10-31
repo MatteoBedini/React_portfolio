@@ -4,12 +4,12 @@
     background-color: var(--white);
     border-radius: 50%;
     padding:5px;
-    width: 60px;
-    height: 60px;
-    box-shadow: 0px 0px 1px var(--shadow);
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 2px 1px var(--shadow);
     transition: 0.3s;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 50px;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -25,3 +25,32 @@
     text-decoration: none;
     
 }
+
+i{
+    
+    transition:0.3;
+}
+/* i:hover{
+  
+    transform:scale(1.2);
+} */
+i:active{
+    transform:scale(1.4);
+    color:var(--blue);
+
+}
+
+.hovered{
+    color:var(--white);
+}
+
+.icon-label{
+    display:none;
+    color: var(--black);
+    font-family: Reactfont;
+    transition:0.3s;
+}
+
+/* .name-title{
+    border-radius:30px;
+} */

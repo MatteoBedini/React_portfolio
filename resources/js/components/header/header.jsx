@@ -1,9 +1,9 @@
 
 import './style.css';
-const Header = ({title}) => {
+const Header = ({title,classe,id}) => {
     
     return (
-        <header className="App-header mt-4">
+        <header className={`App-header mt-4 ${classe}`} id={id}>
             <h1>{title}</h1>
         </header>
     );

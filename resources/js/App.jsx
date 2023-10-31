@@ -14,11 +14,11 @@ function App() {
   return (
     <>
       <div className="App container-fluid">
-        <div class="row justify-content-center">
-          <div class="col-2 px-0">
+        <div className="row justify-content-center">
+          <div className="col-2 px-0">
             <Navbar />
           </div>
-          <div class="col-10 px-5">
+          <div className="col-10">
 
             <Routes>
 
