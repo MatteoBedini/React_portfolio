@@ -1,56 +1,148 @@
-
-.social-cus{
-    color:var(--red);
+.social-cus {
+    color: var(--black);
     background-color: var(--white);
     border-radius: 50%;
-    padding:5px;
+    padding: 5px;
     width: 100px;
     height: 100px;
-    box-shadow: 0px 0px 2px 1px var(--shadow);
+
     transition: 0.3s;
+
+
     cursor: pointer;
     font-size: 50px;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    position:relative;
-    
-    
+    position: relative;
+
+
 
 }
 
-.social-media-cus{
-    height:70vh;
+.social-cus:hover {
+    transform: scale(1.2);
+
+}
+
+.social-cus:active {
+    transform: scale(1.4);
+
+}
+
+.social-media-cus {
+    height: 50vh;
     text-decoration: none;
-    
-}
 
-i{
-    
-    transition:0.3;
-}
-/* i:hover{
-  
-    transform:scale(1.2);
-} */
-i:active{
-    transform:scale(1.4);
-    color:var(--blue);
 
 }
 
-.hovered{
-    color:var(--white);
-}
 
-.icon-label{
-    display:none;
+
+#icon-label-linkedin {
+    opacity: 0;
     color: var(--black);
     font-family: Reactfont;
-    transition:0.3s;
+    font-size: larger;
+    position: absolute;
+    
+    transition: 0.5s;
+    /* animation: labelAnimation 0.3s; */
+
+    transform: translate(59px, 0px);
+
 }
 
-/* .name-title{
-    border-radius:30px;
-} */
+#icon-label-github {
+    opacity: 0;
+    color: var(--black);
+    font-family: Reactfont;
+    font-size: larger;
+    position: absolute;
+    
+    transition: 0.3s;
+
+
+    transform: translate(67px, 0px);
+
+}
+#icon-label-facebook {
+    opacity: 0;
+    color: var(--black);
+    font-family: Reactfont;
+    font-size: larger;
+    position: absolute;
+    text-align: center;
+    transition: 0.5s;
+
+    text-shadow: 0px 0px 5px 5px  var(--black)
+   
+
+}
+
+
+@keyframes labelAnimation {
+    0% {
+        opacity: 0;
+        transform: translate(50px, 20px);
+    }
+
+    25% {
+        opacity: 0.2;
+        transform: translate(90px, 0px);
+    }
+
+    
+    50% {
+        opacity: 0.6;
+        transform: translate(0px, -30px) scale(1.1);
+    }
+
+    75% {
+        opacity: 0.8;
+        transform: translate(90px, -40px) scale(1.2);
+    }
+   
+    100% {
+        opacity: 1;
+        
+        transform: translate(59px, -40px) scale(1.5);
+    }
+}
+
+@keyframes labelAnimation2 {
+    0% {
+
+        transform: translate(59px, -40px);
+    }
+
+    50% {
+
+        transform: translate(34px, -20px);
+    }
+
+    100% {
+
+        transform: translate(62px, 0px);
+    }
+
+}
+
+.footer-homepage{
+    color:var(--shadow);
+}
+
+.name-title{
+    text-align: center;
+    font-size: 15vh;
+    font-family: Reactfont;
+    font-stretch: ultra-expanded;
+    color: var(--green);
+}
+
+#m{
+    color: var(--red);
+    font-size:170px;
+    font-family:Pixel;
+}

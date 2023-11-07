@@ -7,6 +7,19 @@
   font-family: Roboto;
   src: url('/resources/fonts/Roboto/Roboto-Regular.ttf');
 }
+
+@font-face{
+  font-family: Pixel;
+  src: url('/resources/fonts/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf');
+}
+@font-face{
+  font-family: Space;
+  src: url('/resources/fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf');
+}
+@font-face{
+  font-family: ShareTech;
+  src: url('/resources/fonts/Share_Tech/ShareTech-Regular.ttf');
+}
 :root{
   --black: #010626;
   --white: #B4D2D9;
@@ -14,7 +27,12 @@
   --red: #8C0335;
   --blue:#99B4BF;
   --shadow: rgb(1, 6, 38, 0.4);
+  
 
+}
+
+.text-red{
+  color: var(--red);
 }
 
 body{

@@ -8,7 +8,7 @@ import { Outlet, NavLink } from 'react-router-dom'
     button.classList.toggle('active')
 }) */
 
-const Navbar = ()=>{
+const Navbar = () => {
     return (
         <nav>
             <div className="d-flex justify-content-center">
@@ -17,7 +17,8 @@ const Navbar = ()=>{
             <ul className="d-flex flex-column align-items-center">
                 <NavLink end to="/" className="text-decoration-none navlink-cus btn-cus " ><li className="text-center">Home</li></NavLink>
                 <NavLink end to="/cv" className="text-decoration-none navlink-cus btn-cus "><li className="text-center ">Chi sono</li></NavLink>
-               <NavLink end to="/contact" className="text-decoration-none navlink-cus btn-cus"> <li className=" text-center">Contatti</li></NavLink>
+                <NavLink end to="/contact" className="text-decoration-none navlink-cus btn-cus"> <li className=" text-center">Contatti</li></NavLink>
+                <NavLink end to="/projects" className="text-decoration-none navlink-cus btn-cus"> <li className=" text-center">Progetti</li></NavLink>
             </ul>
         </nav>
     );

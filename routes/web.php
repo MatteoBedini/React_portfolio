@@ -18,11 +18,11 @@ Route::get('/', function () {
 })->name('homepage');
 
 Route::get('/contact', function () {
-    return view('contacts');
+    return view('homepage');
 })->name('contact');
 
 Route::get('/cv', function () {
-    return view('CV');
+    return view('homepage');
 })->name('cv');
 
 

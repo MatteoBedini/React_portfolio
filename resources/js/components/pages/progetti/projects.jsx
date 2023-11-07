@@ -5,11 +5,11 @@ import Section from '../../../components/section/section';
 const Contacts = () => {
     return (
         <> <div className="px-4">
-            <Header title="Contatti" />
+            <Header title="Progetti" />
             <Section
                 classe="expand"
-                title="Telefono"
-                content={<a href="tel:+393926002542" className='clickable'>+39 3926002542</a>} />
+                title="Presto.it"
+                content={<><span>Link GitHub: </span><a href="https://github.com/MatteoBedini/Presto.it" className='clickable'>https://github.com/MatteoBedini/Presto.it</a></>} />
             <Section
                 classe="expand"
                 title="Email"

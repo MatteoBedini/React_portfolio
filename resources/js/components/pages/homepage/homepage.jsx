@@ -11,48 +11,77 @@ const Home = () => {
 
     useEffect(() => {
         changeColorOnHover();
-      }, []);
-    
-    
+    }, []);
+
+
 
     return (
         <>
-            <Header title="Matteo Bedini" classe="name-title" />
-            <Section title="Junior Full Stack Developer | Allenatore Fipav di secondo grado" />
-            <div className="d-flex justify-content-center align-items-center social-media-cus">
+            
+            <header  className="name-title mx-4"><span id="m">M</span>atteo Bedini</header>
+            <Section title="Junior Full Stack Web Developer" classetitle="text-center text-red" />
+            <div className="container-fluid ">
+                <div className="row social-media-cus align-items-center justify-content-center">
+                    <div className="col-3">
 
-                <Link
-                    
-                    classe="d-flex justify-content-around align-items-center text-decoration-none"
-                    link="https://www.linkedin.com/in/matteo-bedini-31aa27196/"
-                    content={
-                        <>
-                            <span className="icon-label">Linkedin</span>
-                            <i className={`fa-brands fa-linkedin social-cus mx-5 icon fa-3x `}></i>
+                        <Link
+
+                            classe="d-flex justify-content-around align-items-center text-decoration-none"
+                            link="https://www.linkedin.com/in/matteo-bedini-31aa27196/"
+                            content={
+                                <>
+                                    <div>
+                                        <span id="icon-label-linkedin">Linkedin</span>
+                                        <i className={`fa-brands fa-linkedin social-cus mx-5 fa-3x `} id="icon-linkedin"></i>
+
+                                    </div>
+
+                                </>
+                            }
+                        />
+                    </div>
+                    <div className="col-3">
+                        <Link
+                            classe="d-flex justify-content-around align-items-center text-decoration-none"
+                            link="https://github.com/MatteoBedini"
+                            content={
+                                <>
+                                    <div>
+
+                                        <span id="icon-label-github">Github</span>
+                                        <i className={`fa-brands fa-github social-cus mx-5  fa-3x `} id="icon-github"></i>
+
+                                    </div>
 
 
+                                </>
+                            }
+                        />
+                    </div>
+                    <div className="col-3">
+                        <Link
+                            classe="d-flex justify-content-around align-items-center text-decoration-none"
+                            link="https://github.com/MatteoBedini"
+                            content={
+                                <>
+                                    <div>
 
-                        </>
-                    }
-                />
-                <Link
-                    
-                    classe="d-flex justify-content-around align-items-center text-decoration-none"
-                    link="https://github.com/MatteoBedini"
-                    content={
-                        <>
-                            <span className="icon-label">Github</span>
-                            <i className={`fa-brands fa-github social-cus mx-5 icon fa-3x `}></i>
+                                        <span id="icon-label-facebook">Facebook</span>
+                                        <i className={`fa-brands fa-facebook social-cus mx-5  fa-3x `} id="icon-facebook"></i>
+
+                                    </div>
 
 
-
-                        </>
-                    }
-                />
+                                </>
+                            }
+                        />
+                    </div>
+                </div>
             </div>
+
             <Section
-                classe="my-5 d-flex justify-content-center align-items-center"
-                content="Il sito è stato realizzando interamente in React per quanto riguarda la parte di frontend e laravel per la parte di backend" />
+                classe="d-flex justify-content-center align-items-center footer-homepage"
+                content="Il sito è stato realizzando interamente in React e Laravel" />
 
 
         </>

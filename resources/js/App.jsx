@@ -6,6 +6,7 @@ import Link from './components/link/link'; */
 import Navbar from './components/navbar/navbar';
 import Contacts from './components/pages/contacts/contacts';
 import CV from './components/pages/cv/cv';
+import Projects from './components/pages/progetti/projects';
 import { Routes, Route } from "react-router-dom";
 import Home from './components/pages/homepage/homepage';
 
@@ -18,18 +19,21 @@ function App() {
           <div className="col-2 px-0">
             <Navbar />
           </div>
-          <div className="col-10">
+          <div className="col-10 home-container">
 
             <Routes>
 
               {/* home */}
               <Route path="/" element={<Home />} />
 
-               {/* curriculum vitae */}
+              {/* curriculum vitae */}
               <Route path="/cv" element={<CV />} />
-             
+
               {/* contatti */}
               <Route path="/contact" element={<Contacts />} />
+
+              {/* progetti */}
+              <Route path="/projects" element={<Projects />} />
 
             </Routes>
 
@@ -40,13 +44,13 @@ function App() {
   );
 }
 
-                  
+
 
 
 export default App;
 
-    
 
 
-                  
+
+
 

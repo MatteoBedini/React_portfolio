@@ -8,7 +8,10 @@
     line-height: 27px;
 }
 
-
+.div-comp-form{
+  
+  min-height: 100vh;
+}
 
 .arrow {
   text-align: center;
@@ -35,6 +38,7 @@
 .arrow a i:hover{
     color: var(--red);
     transform:scale(1.4);
+    opacity: 1;
 
 
 }
@@ -55,3 +59,4 @@
     transform: translateY(-15px);
   }
 }
+
