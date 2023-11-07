@@ -21,6 +21,7 @@
 
 }
 
+
 .social-cus:hover {
     transform: scale(1.2);
 
@@ -137,7 +138,9 @@
     text-align: center;
     font-size: 15vh;
     font-family: Reactfont;
-    font-stretch: ultra-expanded;
+    /* font-stretch: ultra-expanded; */
+    height:25vh;
+
     color: var(--green);
 }
 
@@ -146,3 +149,75 @@
     font-size:170px;
     font-family:Pixel;
 }
+
+#b{
+    color: var(--red);
+    font-size:170px;
+    font-family:Pixel;
+}
+
+#t{
+    color: var(--red);
+    font-size: larger;
+    font-family:Pixel;
+}
+
+#o{
+    color: var(--red);
+    font-size: larger;
+    font-family:Pixel;
+}
+
+#e{
+    color: var(--red);
+    font-size: larger;
+    font-family:Pixel;
+}
+
+#i{
+    color: var(--red);
+    font-size: larger;
+    font-family:Pixel;
+}
+
+/* mb ball */
+.mb-ball{
+    content: url("./img/MB_ball1.png");
+    animation: roller 1.2s infinite;
+    animation-timing-function: linear;
+    
+    
+}
+.mb-ball-container{
+    position: absolute;
+    animation: translate 12s infinite;
+    animation-timing-function: linear;
+    height:70px;
+    display: flex;
+}
+
+.mb-ball-row{
+    
+    height:70px;
+}
+
+@keyframes translate{
+    0% {transform: translate(-20vw);}
+    100% {transform: translate(110vw);}
+}
+@keyframes roller {
+    100% {rotate: 360deg;}
+}
+
+/* esempio su come implementare delle gif */
+/* @keyframes roller {
+    0% { content: url("./img/MB_ball1.png"); }
+    15% { content: url("./img/MB_ball2.png");}
+    30% { content: url("./img/MB_ball3.png");}
+    45% { content: url("./img/MB_ball4.png");}
+    60% { content: url("./img/MB_ball5.png");}
+    75% { content: url("./img/MB_ball6.png");}
+    90% { content: url("./img/MB_ball7.png");}
+    100% { content: url("./img/MB_ball1.png");}
+} */
+

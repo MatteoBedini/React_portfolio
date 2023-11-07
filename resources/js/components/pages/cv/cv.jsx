@@ -90,11 +90,11 @@ const CV = () => {
                     title="Certificazione Aulab Full Stack Developer"
                     content="Corso di formazione Aulab.it" />
                 <Section
-                    title="Allenatore di secondo grado FIPAV"
-                    content="Corso ufficiale FIPAV" />
-                <Section
                     title="Laurea in Scienze Agrarie"
                     content="Università di Pisa" />
+                <Section
+                    title="Allenatore di secondo grado FIPAV"
+                    content="Corso ufficiale FIPAV" />
                 <Section
                     title="Diploma scientifico sperimentale"
                     content="Liceo scientifico Filippo Buonarroti" />

@@ -1,0 +1,6 @@
+.presto-image{
+    content: url("./Presto.png");
+    max-height: 500px;
+    border: 2px solid var(--shadow);
+    border-radius: 4px;
+}

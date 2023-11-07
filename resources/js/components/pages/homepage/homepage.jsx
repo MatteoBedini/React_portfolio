@@ -18,7 +18,10 @@ const Home = () => {
     return (
         <>
             
-            <header  className="name-title mx-4"><span id="m">M</span>atteo Bedini</header>
+            <header  className="mx-4 d-flex justify-content-center flex-column">
+                <div className="name-title "><span id="m">M</span>a<span id="t">t</span>te<span id="o">o</span> <span id="b">B</span>ed<span id="i">i</span>ni</div>
+                <div className="d-flex mb-ball-row"><span className="mb-ball-container p-0 m-0"><img src="" className="mb-ball"/></span></div>
+            </header>
             <Section title="Junior Full Stack Web Developer" classetitle="text-center text-red" />
             <div className="container-fluid ">
                 <div className="row social-media-cus align-items-center justify-content-center">

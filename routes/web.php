@@ -25,4 +25,8 @@ Route::get('/cv', function () {
     return view('homepage');
 })->name('cv');
 
+Route::get('/projects', function () {
+    return view('homepage');
+})->name('projects');
+
 

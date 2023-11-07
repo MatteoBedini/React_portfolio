@@ -29,11 +29,11 @@ function App() {
               {/* curriculum vitae */}
               <Route path="/cv" element={<CV />} />
 
-              {/* contatti */}
-              <Route path="/contact" element={<Contacts />} />
-
               {/* progetti */}
               <Route path="/projects" element={<Projects />} />
+
+              {/* contatti */}
+              <Route path="/contact" element={<Contacts />} />
 
             </Routes>
 
